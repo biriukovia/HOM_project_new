@@ -1,0 +1,45 @@
+1. Global optimiser (differential evolution) vs Levenberg-Marquardt
+   A    LM=0.523053  DE=0.523053  diff=+8.1e-10
+   V    LM=0.919560  DE=0.919560  diff=-2.2e-09
+   x0   LM=1.366205  DE=1.366205  diff=-1.9e-08
+   L    LM=3.920544  DE=3.920544  diff=+3.6e-08
+   s    LM=0.505497  DE=0.505497  diff=+3.2e-09
+   RSS LM=3.57893700e-04  DE=3.57893700e-04
+
+2. Injection-recovery (400 synthetic sets, white noise sigma=0.00169)
+   A   true=0.52305  mean=0.52307  bias/sd=+0.02  sd=6.49e-04  cov.err=6.42e-04  coverage(1sig)=0.65
+   V   true=0.91956  mean=0.91955  bias/sd=-0.01  sd=1.50e-03  cov.err=1.52e-03  coverage(1sig)=0.69
+   x0  true=1.36621  mean=1.36626  bias/sd=+0.01  sd=4.05e-03  cov.err=4.06e-03  coverage(1sig)=0.68
+   L   true=3.92054  mean=3.92068  bias/sd=+0.01  sd=1.97e-02  cov.err=2.03e-02  coverage(1sig)=0.68
+   s   true=0.50550  mean=0.50436  bias/sd=-0.09  sd=1.20e-02  cov.err=1.14e-02  coverage(1sig)=0.68
+
+3. Discrimination power Gaussian vs Laplace jitter
+   observed AICc(gauss) - AICc(laplace) = -8.49
+   data simulated from Laplace model: Gaussian preferred in 7/300 cases; P(dAICc <= -8.5) = 0.000
+   data simulated from Gaussian model: Gaussian preferred in 291/300 cases; median dAICc = -15.2
+
+4. 10-fold cross-validation, RMS prediction error (1e-3)
+   model         random   contiguous
+   exp*gauss       1.70       1.99
+   exp*laplace     1.78       4.02
+   coherent        1.70       1.96
+   exp             5.69      12.49
+   lorentz         8.26      31.51
+   gauss          17.43      53.25
+
+5. Parameter stability on subsets (exp*gauss)
+   all              A=0.5231(0.0006)  V=0.9196(0.0015)  x0=1.3662(0.0041)  L=3.9205(0.0203)  s=0.5055(0.0114)
+   x <= 9 cm        A=0.5236(0.0019)  V=0.9187(0.0018)  x0=1.3655(0.0038)  L=3.9377(0.0406)  s=0.5007(0.0121)
+   x >= 0.5 cm      A=0.5231(0.0007)  V=0.9186(0.0019)  x0=1.3700(0.0058)  L=3.9222(0.0207)  s=0.4983(0.0139)
+   drop |x-x0|<0.3  A=0.5230(0.0007)  V=0.9197(0.0016)  x0=1.3662(0.0042)  L=3.9190(0.0211)  s=0.5087(0.0157)
+   even points      A=0.5228(0.0008)  V=0.9196(0.0020)  x0=1.3687(0.0051)  L=3.9105(0.0264)  s=0.5077(0.0147)
+   odd points       A=0.5233(0.0010)  V=0.9196(0.0024)  x0=1.3635(0.0065)  L=3.9304(0.0318)  s=0.5038(0.0181)
+
+6. Model-light zero-delay visibility
+   parabola through 7 lowest points: x_min=1.3532 cm, y_min=0.08788
+   tail-only asymptote (x>7 cm, single exponential): A=0.5193 +- 0.0021, L_tail=3.655 cm
+   V0 = 1 - y_min/A = 0.8308 (tail A),  0.8320 (global-fit A)
+   main model: V0 = 0.8321
+
+7. Fixed asymptote A=1/2 with bi-exponential kernel (global fit)
+   sigma = 0.00626 (free-A model: 0.00169); points above 0.5: 2
