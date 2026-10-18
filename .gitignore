@@ -1,0 +1,20 @@
+.env
+.env.*
+!.env.example
+.venv*/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+# Локальная корректура: перед публикацией её распространение проверяет владелец.
+literature/NG10488.pdf
+paper_memory/*.pdf
+paper_memory/*.txt
+paper/parts/
+*.aux
+*.log
+*.out
+*.bbl
+*.blg
+# Служебный локальный тест не должен добавлять артефакты.
+.course_tmp/

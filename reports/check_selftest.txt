@@ -1,0 +1,7 @@
+WROTE /tmp/hom_check_4ur11gge/valid.json; n=130; RSS=0.000357893700048; V0=0.832109016
+valid: exit=0; PASS n=130 RSS=0.000357893700048 sigma=0.001692084 V0=0.832109016 T1_ps=130.811888 quad_error=2.2e-16
+bad_V0: exit=1; FAIL: Неверный V0
+bad_parameter: exit=1; FAIL: Сохранённый RSS неверен
+bad_digest: exit=1; FAIL: Не совпал числовой отпечаток данных
+CRLF: exit=0; PASS n=130 RSS=0.000357893700048 sigma=0.001692084 V0=0.832109016 T1_ps=130.811888 quad_error=2.2e-16
+SELFTEST PASS: valid + CRLF accepted; 3 corruptions rejected; original results untouched.

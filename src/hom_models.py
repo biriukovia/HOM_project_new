@@ -123,10 +123,20 @@ MODELS = {
 
 
 def load_data(path):
+    """Данные: data/data.txt.
+
+    Проверка: checks/check.py::check — размер, конечность и числовой отпечаток.
+    Используется в: src/fit_hom.py::main; src/verify_fit.py::main.
+    """
     d = np.loadtxt(path, comments="#")
     return d[:, 0], d[:, 1]
 
 
 def cm_to_ps(dx_cm):
-    """Stage displacement -> optical delay (single pass: path change = dx)."""
+    """Stage displacement -> optical delay (single pass: path change = dx).
+
+    Данные: смещение в см; однопроходность подтверждена в diary.md (13.10).
+    Проверка: checks/check.py::check — отдельный пересчёт T1 без импорта функции.
+    Используется в: src/quick_fit.py::main; src/fit_hom.py::derived.
+    """
     return N_GROUP_AIR * np.asarray(dx_cm) / C_LIGHT_CM_PER_PS
