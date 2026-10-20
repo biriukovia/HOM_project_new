@@ -1,0 +1,5 @@
+{
+  "config.txt": "single_pass=true\nn_group=1.00028\nc_cm_per_ps=0.0299792458\n",
+  "data.csv": "dx_cm\n0\n1\n3\n",
+  "result.csv": "dx_cm,tau_ps\n0,0.0\n1,33.365749\n3,100.097248\n"
+}

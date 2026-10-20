@@ -1,0 +1,16 @@
+commit 54d88a5c76df0d5ed46ea4f0115d5ce95bd5c561
+Author:     Yurii Biriukov <biryukovya@my.msu.ru>
+AuthorDate: Tue Oct 20 09:58:13 2026 +0300
+Commit:     Yurii Biriukov <biryukovya@my.msu.ru>
+CommitDate: Tue Oct 20 09:58:13 2026 +0300
+
+    Исходное состояние учебного опыта
+
+ .gitignore                |   5 +
+ AGENTS.md                 | 226 ++++++++++++++++++++++++++++++++++++++++++++++
+ data/README.md            |  18 ++++
+ data/raw/rates.csv        |  21 +++++
+ library/arrhenius_1889.md |  10 ++
+ library/laidler_1984.md   |   9 ++
+ ontology.yaml             | 128 ++++++++++++++++++++++++++
+ 7 files changed, 417 insertions(+)

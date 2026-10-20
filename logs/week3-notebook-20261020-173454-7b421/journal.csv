@@ -1,0 +1,9 @@
+t,действие,наблюдение,φ
+0,list_files({}),config.txt | data.csv,
+1,"read_file({""path"":""config.txt""})",single_pass=true | n_group=1.00028 | c_cm_per_ps=0.0299792458 | ,
+2,"read_file({""path"":""data.csv""})",dx_cm | 0 | 1 | 3 | ,
+3,"calc({""expr"":""1.00028 * 0 / 0.0299792458""})",0.0,
+3,"calc({""expr"":""1.00028 * 1 / 0.0299792458""})",33.365749,
+3,"calc({""expr"":""1.00028 * 3 / 0.0299792458""})",100.097248,
+4,"write_file({""content"":""dx_cm,tau_ps\n0,0.0\n1,33.365749\n3,1",записано 44 символов в result.csv,
+5,ответ,Вычислены задержки $\tau_{ps}$ для значений $dx_{cm}$ из `data.csv` с ,1

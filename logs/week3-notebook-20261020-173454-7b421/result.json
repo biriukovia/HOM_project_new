@@ -1,0 +1,8 @@
+{
+  "criterion_passed": true,
+  "model": "gemma4:31b-cloud",
+  "usage": {
+    "вход": 34983,
+    "выход": 3272
+  }
+}

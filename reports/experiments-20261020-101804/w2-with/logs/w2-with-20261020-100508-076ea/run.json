@@ -1,0 +1,30 @@
+{
+  "session_name": "w2-with-20261020-100508-076ea",
+  "task": "w2-with",
+  "model": "gemma4:31b-cloud",
+  "provider": "ollama",
+  "endpoint": "http://localhost:11434",
+  "remote_inference": true,
+  "mode": "approve",
+  "context_requested": 32768,
+  "started": "2026-10-20T10:05:10.462740+03:00",
+  "cwd": "C:\\Users\\yury_\\Shad_projects\\HOM_course_runs_20261020-095811\\w2-with",
+  "ollama_version": {
+    "version": "0.40.6"
+  },
+  "protected_before": {
+    "data/spectrum_01.txt": "cfae16bb6b2e8c73d660edbf0429094bc349e3ce5bfaef2f32c898f1698e8a05",
+    "data/spectrum_02.txt": "e134379668c495fef317105c352b8ef6db479ddc5beac5c34131e5b6b6095202",
+    "data/spectrum_03.txt": "9ffbcfeab39cc7cdf4ede43cb2660544e3ac350c5f9e4f2bbdf6d7ecc5d60e3f",
+    "data/spectrum_04.txt": "44271e982c95f00068c69c80af3847dde317641d6b38051eca92519f71439282",
+    "checks/check_peaks.py": "941655b150746bdf87cb147ac8ad1183322e6e7a116a0417a43e3b1b8b8621f6",
+    "checks/expected_peaks.csv": "c53fda077713067b51274ea12f0d8471b3c10a0652fd5ea1ab1f42f3b729b479"
+  },
+  "task_result": "NOT_ASSESSED",
+  "human_review": "PENDING",
+  "goose_process_exit_code": 0,
+  "protected_changed": [],
+  "ended": "2026-10-20T10:11:35.120049+03:00",
+  "export_markdown_exit_code": 0,
+  "export_json_exit_code": 0
+}

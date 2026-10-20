@@ -1,0 +1,16 @@
+commit 3d3048fbca1a2474c536baf60512e7edc0b16e59
+Author:     Yurii Biriukov <biryukovya@my.msu.ru>
+AuthorDate: Tue Oct 20 09:58:11 2026 +0300
+Commit:     Yurii Biriukov <biryukovya@my.msu.ru>
+CommitDate: Tue Oct 20 09:58:11 2026 +0300
+
+    Исходное состояние учебного опыта
+
+ .gitignore                |   5 +
+ checks/check_peaks.py     |  26 ++
+ checks/expected_peaks.csv |  10 +
+ data/spectrum_01.txt      | 602 ++++++++++++++++++++++++++++++++++++++++++++++
+ data/spectrum_02.txt      | 602 ++++++++++++++++++++++++++++++++++++++++++++++
+ data/spectrum_03.txt      | 602 ++++++++++++++++++++++++++++++++++++++++++++++
+ data/spectrum_04.txt      | 602 ++++++++++++++++++++++++++++++++++++++++++++++
+ 7 files changed, 2449 insertions(+)

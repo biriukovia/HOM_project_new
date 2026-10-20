@@ -1,0 +1,88 @@
+{
+  "id": "20261020_4",
+  "working_dir": "C:\\Users\\yury_\\Shad_projects\\HOM_course_runs_20261020-095811\\w2-without",
+  "name": "w2-without-20261020-095842-6c4dd",
+  "user_set_name": true,
+  "session_type": "user",
+  "created_at": "2026-10-20T06:58:45Z",
+  "updated_at": "2026-10-20T06:58:45Z",
+  "extension_data": {
+    "enabled_extensions.v0": {
+      "extensions": [
+        {
+          "type": "platform",
+          "name": "developer",
+          "description": "Write and edit files, and execute shell commands",
+          "display_name": "Developer",
+          "bundled": true
+        }
+      ]
+    }
+  },
+  "usage": {
+    "input_tokens": null,
+    "output_tokens": null,
+    "total_tokens": null,
+    "cache_read_input_tokens": null,
+    "cache_write_input_tokens": null
+  },
+  "accumulated_usage": {
+    "input_tokens": null,
+    "output_tokens": null,
+    "total_tokens": null,
+    "cache_read_input_tokens": null,
+    "cache_write_input_tokens": null
+  },
+  "accumulated_cost": null,
+  "schedule_id": null,
+  "recipe": null,
+  "user_recipe_values": null,
+  "conversation": [
+    {
+      "id": "msg_3c7b08d4-2c56-4eb5-9cbd-c325da8674e2",
+      "role": "user",
+      "created": 1792479525,
+      "content": [
+        {
+          "type": "text",
+          "text": "Работаешь через Goose. Локальные файлы можно читать инструментом shell.\r\n\r\nНайди положения и ширины пиков во всех спектрах из data/.\r\n"
+        }
+      ],
+      "metadata": {
+        "userVisible": true,
+        "agentVisible": true
+      }
+    },
+    {
+      "id": "msg_54308805-93ee-470c-baaa-17c2f92a48d7",
+      "role": "user",
+      "created": 1792479525,
+      "content": [
+        {
+          "type": "text",
+          "text": "<turn-context>\n<current-time>2026-10-20 09:58:00 +03:00</current-time>\n<working-directory>C:\\Users\\yury_\\Shad_projects\\HOM_course_runs_20261020-095811\\w2-without</working-directory>\n</turn-context>"
+        }
+      ],
+      "metadata": {
+        "userVisible": false,
+        "agentVisible": true,
+        "turnContext": true
+      }
+    }
+  ],
+  "message_count": 1,
+  "last_message_at": "2026-10-20T06:58:45Z",
+  "provider_name": "ollama",
+  "model_config": {
+    "model_name": "deepseek-v4.1-flash:cloud",
+    "temperature": null,
+    "max_tokens": 8192,
+    "toolshim": false,
+    "toolshim_model": null
+  },
+  "goose_mode": "approve",
+  "archived_at": null,
+  "project_id": null,
+  "parent_session_id": null,
+  "last_message_snippet": null
+}

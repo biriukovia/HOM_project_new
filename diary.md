@@ -1,4 +1,4 @@
-# Журнал проекта "Провал манделя"
+﻿# Журнал проекта "Провал манделя"
 
 ## 2026-09-30 — анализ провала Хонга–Оу–Манделя и статья
 
@@ -60,3 +60,11 @@
 **Итог.** Подготовка выполнена ассистентом; личная приёмка ожидается. Реальные
 опыты ai4science, /status, поиск внешних источников, собственный разбор выдачи,
 сверки PDF/DOI и публикация репозитория ещё не выполнены в рамках этой подготовки.
+
+
+## 2026-10-20
+- Zapros: Ispravit chtenie instruktsiy i vypolnit pervyy proverochnyy raschet.
+- Ispolnitel: goose / python
+- Fayly: AGENTS.md, STATUS.md, prompts/01_fit.txt, results/course_fit.json
+- Proverka: python checks/check.py (kod 0)
+- Itog: Raschet vosproizveden, parametry V0=0.8321, T1=130.81 ps. Proverka proydena.

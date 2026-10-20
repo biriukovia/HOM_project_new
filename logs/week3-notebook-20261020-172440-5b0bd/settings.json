@@ -1,0 +1,11 @@
+{
+  "model": "gemma4:31b-cloud",
+  "comparison_models": [
+    "qwen3:8b",
+    "qwen3:4b",
+    "gemma4:31b-cloud"
+  ],
+  "workers": 1,
+  "transport": "http://localhost:11434/v1/",
+  "status": "started"
+}
