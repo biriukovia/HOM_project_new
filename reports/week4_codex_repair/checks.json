@@ -1,0 +1,14 @@
+[
+  {
+    "command": "python checks/check.py",
+    "exit_code": 0,
+    "stdout": "PASS n=130 RSS=0.000357893700048 sigma=0.001692084 V0=0.832109016 T1_ps=130.811888 quad_error=2.2e-16\n",
+    "stderr": ""
+  },
+  {
+    "command": "python ollama_kit/tools/audit_graph.py .",
+    "exit_code": 1,
+    "stdout": "Дополнительная проверка структуры графа; НЕ официальный check_week4.py.\nПредметных объектов: 12\n[НЕТ] Ограничение_физика: нет связей с объектами/файлами по онтологии\n",
+    "stderr": ""
+  }
+]

@@ -68,3 +68,13 @@
 - Fayly: AGENTS.md, STATUS.md, prompts/01_fit.txt, results/course_fit.json
 - Proverka: python checks/check.py (kod 0)
 - Itog: Raschet vosproizveden, parametry V0=0.8321, T1=130.81 ps. Proverka proydena.
+
+
+## 2026-10-20 — неделя 4, сессия 1 и отдельное исправление
+
+Запрос: построить граф имеющихся результатов HOM для сдачи недель 1–5.
+Исполнители: Goose/Ollama gemma4:31b-cloud, затем Codex по отдельному разрешению пользователя.
+Экспорт: logs/graph1-20261020-181201-3159d/. Первый проход и попытка исправления не прошли: неверный YAML, ссылки на отсутствующие файлы, ошибки Python. Эксперимент остановлен; исходные файлы сохранены в reports/week4_codex_repair/before/.
+Отдельное исправление: python ollama_kit/tools/repair_graph_codex.py, код 0; notes/, ontology/, tasks/, .obsidian/.
+Точка проверки: python checks/check.py — код 0; python ollama_kit/tools/audit_graph.py . — код 1, 12 заметок объектов, единственное сообщение об отсутствии исходящей связи у Ограничение_физика. Класс не имеет исходящих отношений по неизменной схеме, входящие связи сохранены. Полный вывод: reports/week4_codex_repair/checks.json.
+Итог: структура исправлена Codex; это не самостоятельный успех Goose. На момент завершения первой сессии — ожидает личной проверки. Последующее решение пользователя фиксируется во второй сессии.
