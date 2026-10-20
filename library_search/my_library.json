@@ -1,0 +1,148 @@
+{
+  "source": "OpenAlex",
+  "request": "https://api.openalex.org/works?search=quantum+dot+photon+indistinguishability&per_page=50&filter=has_abstract%3Atrue&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Ccited_by_count%2Cabstract_inverted_index",
+  "date": "2026-10-20",
+  "topic": "quantum dot photon indistinguishability",
+  "documents": [
+    {
+      "id": "W1969492851",
+      "title": "Restoration of photon indistinguishability in the emission of a semiconductor quantum dot",
+      "year": 2005,
+      "doi": "https://doi.org/10.1103/physrevb.72.041303",
+      "text": "Restoration of photon indistinguishability in the emission of a semiconductor quantum dot. We report on a series of experiments on the second-order interference of two single photons emitted sequentially by a single quantum dot. The visibility of this interference probes the indistinguishability of the emitted photons; visibilities as high as 0.75 at $4\\phantom{\\rule{0.3em}{0ex}}\\mathrm{K}$ have been achieved. At higher temperatures, dephasing of the quantum dot exciton degrades the indistinguishability of the emitted photons and the visibility of the interference. However, we demonstrate that engineering of the radiative lifetime of the quantum dot by the implementation of the Purcell effect in a microcavity, can restore indistinguishability and improve the visibility of second-order interference. At the same time, we demonstrate the resonant character of the Purcell effect."
+    },
+    {
+      "id": "W2545834589",
+      "title": "Highly indistinguishable and strongly entangled photons from symmetric GaAs quantum dots",
+      "year": 2017,
+      "doi": "https://doi.org/10.1038/ncomms15506",
+      "text": "Highly indistinguishable and strongly entangled photons from symmetric GaAs quantum dots. Abstract The development of scalable sources of non-classical light is fundamental to unlocking the technological potential of quantum photonics. Semiconductor quantum dots are emerging as near-optimal sources of indistinguishable single photons. However, their performance as sources of entangled-photon pairs are still modest compared to parametric down converters. Photons emitted from conventional Stranski–Krastanov InGaAs quantum dots have shown non-optimal levels of entanglement and indistinguishability. For quantum networks, both criteria must be met simultaneously. Here, we show that this is possible with a system that has received limited attention so far: GaAs quantum dots. They can emit triggered polarization-entangled photons with high purity (g (2) (0) = 0.002±0.002), high indistinguishability (0.93±0.07 for 2 ns pulse separation) and high entanglement fidelity (0.94±0.01). Our results show that GaAs might be the material of choice for quantum-dot entanglement sources in future quantum technologies."
+    },
+    {
+      "id": "W2585155324",
+      "title": "Indistinguishable and efficient single photons from a quantum dot in a planar nanobeam waveguide",
+      "year": 2017,
+      "doi": "https://doi.org/10.1103/physrevb.96.165306",
+      "text": "Indistinguishable and efficient single photons from a quantum dot in a planar nanobeam waveguide. Planar photonic technology provides a highly promising route of creating an on-chip and on-demand source of single photons, which can be scaled into photonic circuitry. While self-assembled quantum dots have been proven to be excellent coherent single-photon emitters in many microscale structures, in nanoscale devices the photon coherence can be compromised due to the nearby surfaces. Here, the authors achieve 94% indistinguishability of photons emitted from a nanoscale photonic waveguide under $p$-shell excitation."
+    },
+    {
+      "id": "W2223884576",
+      "title": "On-Demand Single Photons with High Extraction Efficiency and Near-Unity Indistinguishability from a Resonantly Driven Quantum Dot in a Micropillar",
+      "year": 2016,
+      "doi": "https://doi.org/10.1103/physrevlett.116.020401",
+      "text": "On-Demand Single Photons with High Extraction Efficiency and Near-Unity Indistinguishability from a Resonantly Driven Quantum Dot in a Micropillar. Scalable photonic quantum technologies require on-demand single-photon sources with simultaneously high levels of purity, indistinguishability, and efficiency. These key features, however, have only been demonstrated separately in previous experiments. Here, by s-shell pulsed resonant excitation of a Purcell-enhanced quantum dot-micropillar system, we deterministically generate resonance fluorescence single photons which, at π pulse excitation, have an extraction efficiency of 66%, single-photon purity of 99.1%, and photon indistinguishability of 98.5%. Such a single-photon source for the first time combines the features of high efficiency and near-perfect levels of purity and indistinguishabilty, and thus opens the way to multiphoton experiments with semiconductor quantum dots."
+    },
+    {
+      "id": "W2329890867",
+      "title": "Post-Selected Indistinguishable Photons from the Resonance Fluorescence of a Single Quantum Dot in a Microcavity",
+      "year": 2009,
+      "doi": "https://doi.org/10.1103/physrevlett.103.167402",
+      "text": "Post-Selected Indistinguishable Photons from the Resonance Fluorescence of a Single Quantum Dot in a Microcavity. Applying continuous-wave pure resonant s-shell optical excitation of individual quantum dots in a high-quality micropillar cavity, we demonstrate the generation of post-selected indistinguishable photons in resonance fluorescence. Close to ideal visibility contrast of 90% is verified by polarization-dependent Hong-Ou-Mandel two-photon interference measurements. Furthermore, a strictly resonant continuous-wave excitation together with controlling the spontaneous emission lifetime of the single quantum dots via tunable emitter-mode coupling (Purcell) is proven as a versatile scheme to generate close to Fourier transform-limited (T2/(2T1)=0.91) single photons even at 80% of the emission saturation level."
+    },
+    {
+      "id": "W2914962019",
+      "title": "Resonance Fluorescence of GaAs Quantum Dots with Near-Unity Photon Indistinguishability",
+      "year": 2019,
+      "doi": "https://doi.org/10.1021/acs.nanolett.8b05132",
+      "text": "Resonance Fluorescence of GaAs Quantum Dots with Near-Unity Photon Indistinguishability. Photonic quantum technologies call for scalable quantum light sources that can be integrated, while providing the end user with single and entangled photons on demand. One promising candidate is strain free GaAs/AlGaAs quantum dots obtained by aluminum droplet etching. Such quantum dots exhibit ultra low multi-photon probability and an unprecedented degree of photon pair entanglement. However, different to commonly studied InGaAs/GaAs quantum dots obtained by the Stranski-Krastanow mode, photons with a near-unity indistinguishability from these quantum emitters have proven to be elusive so far. Here, we show on-demand generation of near-unity indistinguishable photons from these quantum emitters by exploring pulsed resonance fluorescence. Given the short intrinsic lifetime of excitons and trions confined in the GaAs quantum dots, we show single photon indistinguishability with a raw visibility of [Formula: see text], without the need for Purcell enhancement. Our results represent a milestone in the advance of GaAs quantum dots by demonstrating the final missing property standing in the way of using these emitters as a key component in quantum communication applications, e.g., as quantum light sources for quantum repeater architectures."
+    },
+    {
+      "id": "W2914019725",
+      "title": "Highly indistinguishable single photons from incoherently excited quantum dots",
+      "year": 2019,
+      "doi": "https://doi.org/10.1103/physrevb.100.155420",
+      "text": "Highly indistinguishable single photons from incoherently excited quantum dots. Semiconductor quantum dots with dimensions exceeding the free-exciton Bohr radius are appealing because of their high oscillator strengths. While this property has received much attention in the context of cavity quantum electrodynamics, little is known about the degree of indistinguishability of single photons consecutively emitted by such dots and on the proper excitation schemes to achieve high indistinguishability. A prominent example is represented by GaAs quantum dots obtained by local droplet etching, which recently outperformed other systems as triggered sources of entangled photon pairs. On these dots, we compare different single-photon excitation mechanisms, and we find (i) poor indistinguishability for conventional excitation via excited states and (ii) photon indistinguishablilities above 90% for both strictly resonant and for incoherent phonon-assisted excitation. Among the explored excitation schemes, optical phonon-assisted excitation allows straightforward laser rejection and is thus worth of further investigation and optimization for quantum dots embedded in high-brightness photonic structures."
+    },
+    {
+      "id": "W2203037887",
+      "title": "Optimal excitation conditions for indistinguishable photons from quantum dots",
+      "year": 2015,
+      "doi": "https://doi.org/10.1088/1367-2630/17/12/123025",
+      "text": "Optimal excitation conditions for indistinguishable photons from quantum dots. In this paper, we present a detailed, all optical study of the influence of different excitation schemes on the indistinguishability of single photons from a single InAs quantum dot. For this study, we measure the Hong–Ou–Mandel interference of consecutive photons from the spontaneous emission of an InAs quantum dot state under various excitation schemes and different excitation conditions and give a comparison."
+    },
+    {
+      "id": "W2041721734",
+      "title": "Indistinguishable single photons from a single-quantum dot in a two-dimensional photonic crystal cavity",
+      "year": 2005,
+      "doi": "https://doi.org/10.1063/1.2103397",
+      "text": "Indistinguishable single photons from a single-quantum dot in a two-dimensional photonic crystal cavity. We report on the spontaneous emission of a single-quantum dot embedded in a two-dimensional photonic crystal cavity. The resonant coupling between the dot and the strongly localized optical mode significantly shortens the spontaneous emission lifetime, so that the coherence time of the emitted photons is dominated by radiative effects: The emitted photons are indistinguishable, with a mean wave-packet overlap as high as 72%."
+    },
+    {
+      "id": "W1969374549",
+      "title": "Indistinguishable single photons from a quantum dot",
+      "year": 2003,
+      "doi": "https://doi.org/10.1002/pssb.200303050",
+      "text": "Indistinguishable single photons from a quantum dot. Abstract We report a set of experiments designed to test the quantum indistinguishability of single photons emitted by a resonantly pumped InAs/GaAs quantum dot, embedded in a microcavity. We first performed high resolution interferometric measurements on the source to infer its coherence time. By comparison with the exciton lifetime, obtained by time‐resolved spectroscopy, we found that some quantum dots were emitting almost transform‐limited photons. The measured ratio of the coherence time to the pulse duration gives a lower bound on the dephasing time which agrees well with previous studies. We then directly measured the mean overlap between wave packets of consecutive photons emitted 2 ns apart, through a Hong–Ou–Mandel type two‐photon interference experiment. For the best dot, an overlap as high as 0.81 was inferred. This result suggests that quantum dots could be a practical single photon source to perform quantum information processing experiments. We stress the importance of the microcavity for identical photon generation."
+    },
+    {
+      "id": "W1698343762",
+      "title": "Analysis of the photon indistinguishability in incoherently excited quantum dots",
+      "year": 2006,
+      "doi": "https://doi.org/10.1103/physrevb.73.035316",
+      "text": "Analysis of the photon indistinguishability in incoherently excited quantum dots. The solid-state single-photon sources so far demonstrated require energy relaxation processes, which tend to spoil the coherent nature of the time evolution and with it the photon indistinguishability. We focus our theoretical investigation on semiconductor quantum dots embedded in microcavities. In the slow-dephasing limit, the photon indistinguishability is shown to decrease with the ratio between nonradiative and radiative emission rates, according to a simple analytical relation. The effect of dephasing is then investigated within a wide range of physical parameters, providing clear indications for the device optimization."
+    },
+    {
+      "id": "W2587394108",
+      "title": "Generating indistinguishable photons from a quantum dot in a noisy environment",
+      "year": 2017,
+      "doi": "https://doi.org/10.1103/physrevb.95.201410",
+      "text": "Generating indistinguishable photons from a quantum dot in a noisy environment. Single photons from semiconductor quantum dots are promising resources for linear optical quantum computing, or, when coupled to spin states, quantum repeaters. To realize such schemes, the photons must exhibit a high degree of indistinguishability. However, the solid-state environment presents inherent obstacles for this requirement as intrinsic semiconductor fluctuations can destroy the photon indistinguishability. Here, we demonstrate that resonant excitation of a quantum dot with a narrow-band laser generates near transform limited power spectra and indistinguishable photons from a single quantum dot in an environment with many charge-fluctuating traps. The specificity of the resonant excitation suppresses the excited state population in the quantum dot when it is detuned due to spectral fluctuations. The dynamics of this process lead to flickering of the emission over long time scales ($>5\\phantom{\\rule{0.28em}{0ex}}\\ensuremath{\\mu}\\text{s}$) and reduces the time-averaged count rates. Nevertheless, in spite of significant spectral fluctuations, high visibility two-photon interference can be achieved. This approach is useful for quantum dots with nearby surface states in processed photonic structures and quantum emitters in emerging platforms, such as two-dimensional semiconductors."
+    },
+    {
+      "id": "W2267188140",
+      "title": "Highly indistinguishable photons from deterministic quantum-dot microlenses utilizing three-dimensional in situ electron-beam lithography",
+      "year": 2015,
+      "doi": "https://doi.org/10.1038/ncomms8662",
+      "text": "Highly indistinguishable photons from deterministic quantum-dot microlenses utilizing three-dimensional in situ electron-beam lithography. The success of advanced quantum communication relies crucially on non-classical light sources emitting single indistinguishable photons at high flux rates and purity. We report on deterministically fabricated microlenses with single quantum dots inside which fulfil these requirements in a flexible and robust quantum device approach. In our concept we combine cathodoluminescence spectroscopy with advanced in situ three-dimensional electron-beam lithography at cryogenic temperatures to pattern monolithic microlenses precisely aligned to pre-selected single quantum dots above a distributed Bragg reflector. We demonstrate that the resulting deterministic quantum-dot microlenses enhance the photon-extraction efficiency to (23±3)%. Furthermore we prove that such microlenses assure close to pure emission of triggered single photons with a high degree of photon indistinguishability up to (80±7)% at saturation. As a unique feature, both single-photon purity and photon indistinguishability are preserved at high excitation power and pulsed excitation, even above saturation of the quantum emitter."
+    },
+    {
+      "id": "W4391151636",
+      "title": "On-Demand Generation of Indistinguishable Photons in the Telecom C-Band Using Quantum Dot Devices",
+      "year": 2024,
+      "doi": "https://doi.org/10.1021/acsphotonics.3c00973",
+      "text": "On-Demand Generation of Indistinguishable Photons in the Telecom C-Band Using Quantum Dot Devices. High Resolution Image Download MS PowerPoint Slide Semiconductor quantum dots (QDs) enable the generation of single and entangled photons, which are useful for various applications in photonic quantum technologies. Specifically for quantum communication via fiber-optical networks, operation in the telecom C-band centered around 1550 nm is ideal. The direct generation of QD-photons in this spectral range with high quantum-optical quality, however, remained challenging. Here, we demonstrate the coherent on-demand generation of indistinguishable photons in the telecom C-band from single QD devices consisting of InAs/InP QD-mesa structures heterogeneously integrated with a metallic reflector on a silicon wafer. Using pulsed two-photon resonant excitation of the biexciton–exciton radiative cascade, we observe Rabi rotations up to pulse areas of 4π and a high single-photon purity in terms of g (2) (0) = 0.005(1) and 0.015(1) for exciton and biexciton photons, respectively. Applying two independent experimental methods, based on fitting Rabi rotations in the emission intensity and performing photon cross-correlation measurements, we consistently obtain preparation fidelities at the π-pulse exceeding 80%. Finally, performing Hong–Ou–Mandel-type two-photon interference experiments, we obtain a photon-indistinguishability of the full photon wave packet of up to 35(3)%, representing a significant advancement in the photon-indistinguishability of single photons emitted directly in the telecom C-band."
+    },
+    {
+      "id": "W2331363555",
+      "title": "Triggered Indistinguishable Single Photons with Narrow Line Widths from Site-Controlled Quantum Dots",
+      "year": 2012,
+      "doi": "https://doi.org/10.1021/nl303668z",
+      "text": "Triggered Indistinguishable Single Photons with Narrow Line Widths from Site-Controlled Quantum Dots. In this Letter, we present narrow line width (7 μeV), nearly background-free single-photon emission (g((2))(0) = 0.02) and highly indistinguishable photons (V = 0.73) from site-controlled In(Ga)As/GaAs quantum dots. These excellent properties have been achieved by combining overgrowth on ex situ pit-patterned substrates with vertical stacking of spectrally distinct quantum dot layers. Our study paves the way for large-scale integration of quantum dots into quantum photonic circuits as indistinguishable single-photon sources."
+    },
+    {
+      "id": "W2039651403",
+      "title": "Highly indistinguishable photons from a quantum dot in a microcavity",
+      "year": 2010,
+      "doi": "https://doi.org/10.1002/pssb.201000781",
+      "text": "Highly indistinguishable photons from a quantum dot in a microcavity. Abstract We investigated the indistinguishability of photons emitted by single self‐assembled (In,Ga)As/GaAs quantum dots (QDs) coupled to the fundamental mode (FM) of a pillar microcavity. By systematic pre‐characterization, optimum conditions with respect to fast radiative decay (Purcell enhancement), long coherence time, and close to background‐free single‐photon emission have been derived. For different spectral detunings between QD and FM emission, Hong‐Ou‐Mandel‐type (HOM) two‐photon interference has been measured as a function of temporal photon wavepacket overlap. Detailed analysis of our data (under consideration of setup limitations) anticipates the generation of highly indistinguishable photons with up to VHOM = 0.82 visibility."
+    },
+    {
+      "id": "W4409584074",
+      "title": "Electric-Field Control of Photon Indistinguishability in Cascaded Decays in Quantum Dots",
+      "year": 2025,
+      "doi": "https://doi.org/10.1021/acs.nanolett.5c01354",
+      "text": "Electric-Field Control of Photon Indistinguishability in Cascaded Decays in Quantum Dots. Photon indistinguishability, entanglement, and antibunching are key ingredients in quantum optics and photonics. Decay cascades in quantum emitters offer a simple method to create entangled-photon-pairs with negligible multipair generation probability. However, the degree of indistinguishability of the photons emitted in a cascade is intrinsically limited by the lifetime ratio of the involved transitions. Here we show that, for the biexciton-exciton cascade in a quantum dot, this ratio can be widely tuned by an applied electric field. Hong-Ou-Mandel interference measurements of two subsequently emitted biexciton photons show that their indistinguishability increases with increasing field, following the theoretically predicted behavior. At the same time, the emission line width stays close to the transform-limit, favoring applications relying on the interference among photons emitted by different sources."
+    },
+    {
+      "id": "W2971161868",
+      "title": "Indistinguishable Photons from Deterministically Integrated Single Quantum Dots in Heterogeneous GaAs/Si3N4 Quantum Photonic Circuits",
+      "year": 2019,
+      "doi": "https://doi.org/10.1021/acs.nanolett.9b02758",
+      "text": "Indistinguishable Photons from Deterministically Integrated Single Quantum Dots in Heterogeneous GaAs/Si3N4 Quantum Photonic Circuits. Silicon photonics enables scaling of quantum photonic systems by allowing the creation of extensive, low-loss, reconfigurable networks linking various functional on-chip elements. Inclusion of single quantum emitters onto photonic circuits, acting as on-demand sources of indistinguishable photons or single-photon nonlinearities, may enable large-scale chip-based quantum photonic circuits and networks. Toward this, we use low-temperature in situ electron-beam lithography to deterministically produce hybrid GaAs/Si 3 N 4 photonic devices containing single InAs quantum dots precisely located inside nanophotonic structures, which act as efficient, Si 3 N 4 waveguide-coupled on-chip, on-demand single-photon sources. The precise positioning afforded by our scalable fabrication method furthermore allows observation of postselected indistinguishable photons. This indicates a promising path toward significant scaling of chip-based quantum photonics, enabled by large fluxes of indistinguishable single-photons produced on-demand, directly on-chip."
+    },
+    {
+      "id": "W2969343756",
+      "title": "Improving Indistinguishability of Single Photons from Colloidal Quantum Dots Using Nanocavities",
+      "year": 2019,
+      "doi": "https://doi.org/10.1021/acsphotonics.9b01481",
+      "text": "Improving Indistinguishability of Single Photons from Colloidal Quantum Dots Using Nanocavities. Colloidal quantum dots have garnered active research interest as quantum emitters due to their robust synthesis process and straightforward integration with nanophotonic platforms. However, obtaining indistinguishable photons from the colloidal quantum dots at room temperature is fundamentally challenging because they suffer from an extremely large dephasing rate. Here we propose an experimentally feasible method of obtaining indistinguishable single photons from an incoherently pumped solution-processed colloidal quantum dot coupled to a system of nanocavities. We show that by coupling a colloidal quantum dot to a pair of silicon nitride cavities, we can obtain comparable performance of a single photon source from colloidal quantum dots as other leading quantum emitters like defect centers and self-assembled quantum dots."
+    },
+    {
+      "id": "W2894378985",
+      "title": "Polarized indistinguishable single photons from a quantum dot in an elliptical micropillar",
+      "year": 2018,
+      "doi": "https://doi.org/10.48550/arxiv.1809.10992",
+      "text": "Polarized indistinguishable single photons from a quantum dot in an elliptical micropillar. The key challenge to scalable optical quantum computing, boson sampling, and quantum metrology is sources of single photons with near-unity system efficiency and simultaneously near-perfect indistinguishability in all degrees of freedom (including spectral, temporal, spatial, and polarization). However, previous high-indistinguishability solid-state single-photon sources had to rely on polarization filtering that reduced the system efficiency by at least 50%. Here, we overcome this challenge by developing a new single-photon source based on a coherently driven quantum dot embedded in an elliptical micropillar. The asymmetric cavity lifts the polarization degeneracy into two orthogonal linearly polarized modes with a suitable energy separation. We design an excitation-collection scheme that allows the creation and collection of single photons with an indistinguishability of 0.976(1) and a degree of polarization of 91%. Our method provides a solution of combining near-unity system efficiency and indistinguishability compatible with background-free resonant excitation, and opens the way to truly optimal single-photon sources for scalable photonic quantum technologies."
+    }
+  ]
+}

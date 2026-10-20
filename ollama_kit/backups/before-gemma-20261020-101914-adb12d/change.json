@@ -1,0 +1,13 @@
+{
+  "action": "Switch kit defaults and week-3 comparison from DeepSeek to Gemma",
+  "from": "deepseek-v4.1-flash:cloud",
+  "to": "gemma4:31b-cloud",
+  "changed": [
+    "ollama_kit\\run_goose.py",
+    "ollama_kit\\notebooks.py",
+    "ollama_kit\\week3\\agent_loop_ollama.ipynb"
+  ],
+  "backup": "ollama_kit\\backups\\before-gemma-20261020-101914-adb12d",
+  "model_calls_performed": false,
+  "note": "Past logs and results were not changed. Local comparison models remain qwen3:8b and qwen3:4b."
+}

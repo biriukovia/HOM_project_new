@@ -1,0 +1,1 @@
+Вызови инструмент openalex_work для DOI 10.1021/ed061p494. Назови журнал и год только по реальному ответу. Затем через developer.shell выполни python -c "from pathlib import Path; print(Path('AGENTS.md').exists())". Это проверяет, что одновременно доступны research и developer. При ошибке остановись, без подстановки ответа по памяти.

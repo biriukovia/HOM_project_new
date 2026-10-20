@@ -1,0 +1,180 @@
+[
+  {
+    "cell": 2,
+    "execution_count": 1,
+    "errors": [
+      "ModuleNotFoundError"
+    ],
+    "finished": "2026-10-20T18:41:43.501262+03:00"
+  },
+  {
+    "cell": 4,
+    "execution_count": 2,
+    "errors": [
+      "NameError"
+    ],
+    "finished": "2026-10-20T18:41:43.521457+03:00"
+  },
+  {
+    "cell": 6,
+    "execution_count": 3,
+    "errors": [],
+    "finished": "2026-10-20T18:41:43.535066+03:00"
+  },
+  {
+    "cell": 8,
+    "execution_count": 4,
+    "errors": [
+      "NameError"
+    ],
+    "finished": "2026-10-20T18:41:43.554669+03:00"
+  },
+  {
+    "cell": 10,
+    "execution_count": 5,
+    "errors": [
+      "NameError"
+    ],
+    "finished": "2026-10-20T18:41:43.575750+03:00"
+  },
+  {
+    "cell": 12,
+    "execution_count": 6,
+    "errors": [
+      "NameError"
+    ],
+    "finished": "2026-10-20T18:41:43.596082+03:00"
+  },
+  {
+    "cell": 14,
+    "execution_count": 7,
+    "errors": [
+      "NameError"
+    ],
+    "finished": "2026-10-20T18:41:43.618374+03:00"
+  },
+  {
+    "cell": 16,
+    "execution_count": 8,
+    "errors": [
+      "NameError"
+    ],
+    "finished": "2026-10-20T18:41:43.646265+03:00"
+  },
+  {
+    "cell": 18,
+    "execution_count": 9,
+    "errors": [
+      "NameError"
+    ],
+    "finished": "2026-10-20T18:41:43.670435+03:00"
+  },
+  {
+    "cell": 20,
+    "execution_count": 10,
+    "errors": [
+      "NameError"
+    ],
+    "finished": "2026-10-20T18:41:59.558205+03:00"
+  },
+  {
+    "cell": 22,
+    "execution_count": 11,
+    "errors": [
+      "NameError"
+    ],
+    "finished": "2026-10-20T18:41:59.595223+03:00"
+  },
+  {
+    "cell": 24,
+    "execution_count": 12,
+    "errors": [
+      "NameError"
+    ],
+    "finished": "2026-10-20T18:41:59.622800+03:00"
+  },
+  {
+    "cell": 26,
+    "execution_count": 13,
+    "errors": [
+      "NameError"
+    ],
+    "finished": "2026-10-20T18:42:16.312314+03:00"
+  },
+  {
+    "cell": 28,
+    "execution_count": 14,
+    "errors": [
+      "NameError"
+    ],
+    "finished": "2026-10-20T18:42:16.346424+03:00"
+  },
+  {
+    "cell": 30,
+    "execution_count": 15,
+    "errors": [
+      "NameError"
+    ],
+    "finished": "2026-10-20T18:42:16.407766+03:00"
+  },
+  {
+    "cell": 32,
+    "execution_count": 16,
+    "errors": [
+      "NameError"
+    ],
+    "finished": "2026-10-20T18:42:16.478758+03:00"
+  },
+  {
+    "cell": 35,
+    "execution_count": 17,
+    "errors": [
+      "NameError"
+    ],
+    "finished": "2026-10-20T18:42:16.526194+03:00"
+  },
+  {
+    "cell": 37,
+    "execution_count": 18,
+    "errors": [],
+    "finished": "2026-10-20T18:43:52.556038+03:00"
+  },
+  {
+    "cell": 39,
+    "execution_count": 19,
+    "errors": [],
+    "finished": "2026-10-20T18:45:35.153484+03:00"
+  },
+  {
+    "cell": 41,
+    "execution_count": 20,
+    "errors": [],
+    "finished": "2026-10-20T18:45:37.138442+03:00"
+  },
+  {
+    "cell": 42,
+    "execution_count": 21,
+    "errors": [],
+    "finished": "2026-10-20T18:45:38.703840+03:00"
+  },
+  {
+    "cell": 44,
+    "execution_count": 22,
+    "errors": [],
+    "finished": "2026-10-20T18:45:38.720942+03:00"
+  },
+  {
+    "cell": 45,
+    "execution_count": 23,
+    "errors": [],
+    "finished": "2026-10-20T18:45:38.734532+03:00"
+  },
+  {
+    "cell": 48,
+    "execution_count": 24,
+    "errors": [
+      "NameError"
+    ],
+    "finished": "2026-10-20T18:45:39.134942+03:00"
+  }
+]

@@ -1,0 +1,138 @@
+{
+  "original_queries": [
+    [
+      "activation energy temperature dependence Arrhenius rate constant",
+      "химическая кинетика"
+    ],
+    [
+      "why does a warmer reaction mixture transform faster",
+      "химическая кинетика"
+    ],
+    [
+      "metabolic rate of ectotherms and body temperature",
+      "температура в биологии"
+    ],
+    [
+      "enzymes of cold-adapted organisms",
+      "температура в биологии"
+    ],
+    [
+      "BM25 ranking function",
+      "информационный поиск"
+    ],
+    [
+      "finding relevant passages with neural encoders",
+      "информационный поиск"
+    ],
+    [
+      "SPARQL endpoint linked data",
+      "графы знаний"
+    ],
+    [
+      "machine-readable description of concepts and relations",
+      "графы знаний"
+    ],
+    [
+      "скорость реакции и температура",
+      "химическая кинетика"
+    ],
+    [
+      "поиск документов по запросу",
+      "информационный поиск"
+    ]
+  ],
+  "changed_queries": [
+    [
+      "Arrhenius activation barrier reaction rate temperature",
+      "химическая кинетика"
+    ],
+    [
+      "What makes a chemical transformation proceed more quickly when heated?",
+      "химическая кинетика"
+    ],
+    [
+      "metabolic rate of ectotherms and body temperature",
+      "температура в биологии"
+    ],
+    [
+      "enzymes of cold-adapted organisms",
+      "температура в биологии"
+    ],
+    [
+      "BM25 ranking function",
+      "информационный поиск"
+    ],
+    [
+      "finding relevant passages with neural encoders",
+      "информационный поиск"
+    ],
+    [
+      "SPARQL endpoint linked data",
+      "графы знаний"
+    ],
+    [
+      "machine-readable description of concepts and relations",
+      "графы знаний"
+    ],
+    [
+      "скорость реакции и температура",
+      "химическая кинетика"
+    ],
+    [
+      "поиск документов по запросу",
+      "информационный поиск"
+    ]
+  ],
+  "original_scores": {
+    "TF-IDF": {
+      "точность@5": 0.6,
+      "полнота@10": 0.27999999999999997,
+      "MRR": 0.725,
+      "nDCG@10": 0.5788788635279423
+    },
+    "BM25": {
+      "точность@5": 0.6,
+      "полнота@10": 0.27999999999999997,
+      "MRR": 0.7333333333333333,
+      "nDCG@10": 0.5918594505167749
+    },
+    "вектор": {
+      "точность@5": 0.76,
+      "полнота@10": 0.355,
+      "MRR": 0.8833333333333334,
+      "nDCG@10": 0.7309052396084543
+    },
+    "гибрид (RRF)": {
+      "точность@5": 0.82,
+      "полнота@10": 0.37,
+      "MRR": 0.95,
+      "nDCG@10": 0.7718016852232086
+    }
+  },
+  "changed_scores": {
+    "TF-IDF": {
+      "точность@5": 0.62,
+      "полнота@10": 0.27,
+      "MRR": 0.725,
+      "nDCG@10": 0.5706772619942395
+    },
+    "BM25": {
+      "точность@5": 0.6,
+      "полнота@10": 0.275,
+      "MRR": 0.7125,
+      "nDCG@10": 0.5842731784272033
+    },
+    "вектор": {
+      "точность@5": 0.8,
+      "полнота@10": 0.36,
+      "MRR": 0.95,
+      "nDCG@10": 0.7570516005507909
+    },
+    "гибрид (RRF)": {
+      "точность@5": 0.8,
+      "полнота@10": 0.37,
+      "MRR": 0.95,
+      "nDCG@10": 0.7711752041568906
+    }
+  }
+}

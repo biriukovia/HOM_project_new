@@ -1,0 +1,13 @@
+numpy
+scipy
+matplotlib
+pandas
+PyYAML
+pypdf
+openai
+jupyterlab
+ipykernel
+mcp>=1.0,<2.0
+scikit-learn
+sentence-transformers
+umap-learn
