@@ -6,7 +6,7 @@
 
 Остаётся:
 
-1. Отправить преподавателю ссылку: [https://github.com/biriukovia/HOM_project_new](https://github.com/biriukovia/HOM_project_new).
+1. Отправить преподавателю ссылку на [материалы недели 5](https://github.com/biriukovia/HOM_project_new/blob/master/reports/week5_submission.md).
    Репозиторий публичный; приглашение для просмотра не требуется.
 2. Уточнить способ и точное время сдачи у организаторов, если они ещё не известны.
 
