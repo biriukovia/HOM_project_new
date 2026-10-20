@@ -1,0 +1,27 @@
+{
+  "session_name": "demo-graph1-20261020-181438-19382",
+  "task": "demo-graph1",
+  "model": "gemma4:31b-cloud",
+  "provider": "ollama",
+  "endpoint": "http://localhost:11434",
+  "remote_inference": true,
+  "mode": "approve",
+  "context_requested": 32768,
+  "started": "2026-10-20T18:14:40.807504+03:00",
+  "cwd": "C:\\Users\\yury_\\Shad_projects\\HOM_course_runs_20261020-095811\\demo-graph",
+  "ollama_version": {
+    "version": "0.40.6"
+  },
+  "protected_before": {
+    "data/README.md": "ce44cf3decc531bab9a786e1b16b52277c111d5758602225d2959446b191fdf3",
+    "data/raw/rates.csv": "e83d68b7d356047e8b019866b6b490f83927d44e902abb50b104febf82709790",
+    "ontology.yaml": "86a342250c5399421b353181933df3b96645cc86cf2e592f0a7a5f0131aefd69"
+  },
+  "task_result": "NOT_ASSESSED",
+  "human_review": "PENDING",
+  "goose_process_exit_code": 0,
+  "protected_changed": [],
+  "ended": "2026-10-20T18:40:57.793312+03:00",
+  "export_markdown_exit_code": 0,
+  "export_json_exit_code": 0
+}

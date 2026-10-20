@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-20",
+  "secret_scan": {
+    "known_secret_values_loaded": 2,
+    "patterns": "private key headers, GitHub tokens, sk-style API tokens",
+    "findings": [],
+    "history_blobs_examined": 536,
+    "limitation": "Only listed token patterns and configured known secrets; not a universal proof."
+  },
+  "working_tree_file_count": 784,
+  "total_bytes": 8918559,
+  "largest_files": [
+    [
+      1743670,
+      "data/1711.00080v1.pdf"
+    ],
+    [
+      327176,
+      "paper/hom_dip.pdf"
+    ],
+    [
+      274209,
+      "ollama_kit/week5/search_lab_hom.ipynb"
+    ],
+    [
+      266088,
+      "logs/week3-notebook-20261020-185654-313fd/model_calls.jsonl"
+    ],
+    [
+      240646,
+      "logs/literature1-20261020-184452-3c204/session.json"
+    ],
+    [
+      193509,
+      "src/icml2026_template/example_paper.pdf"
+    ],
+    [
+      174904,
+      "logs/graph1-20261020-181201-3159d/session.json"
+    ],
+    [
+      157483,
+      "logs/week3-notebook-20261020-173454-7b421/model_calls.jsonl"
+    ],
+    [
+      153784,
+      "reports/experiments-20261020-190728/demo-graph/logs/demo-graph1-20261020-181438-19382/session.json"
+    ],
+    [
+      153211,
+      "ollama_kit/week5/library_demo/corpus.jsonl"
+    ],
+    [
+      153211,
+      "course/week5/library_demo/corpus.jsonl"
+    ],
+    [
+      136001,
+      "logs/paper-20261020-185355-e18ae/session.json"
+    ]
+  ],
+  "protected_hashes": {
+    "data/1711.00080v1.pdf": "76bf695b5c101d8359104a7b3537a4e06dd16c9e09d68297f2265d68a3c8d90b",
+    "data/data.txt": "77870cb941669b0e442766fc57f634bb35bd0a266e931fb28f87710e16c7184d",
+    "checks/check.py": "93a3ed94104af424686cb40ebc56d974507fb03b51fae2784ec937c45d68bf03",
+    "checks/check_selftest.py": "62f72beb88ce0464ae938939a58fe3c411d57c1c6af66566ce0a586462992cb1"
+  },
+  "protected_hash_mismatches": [],
+  "protected_git_changes": "results/course_fit.json\n"
+}

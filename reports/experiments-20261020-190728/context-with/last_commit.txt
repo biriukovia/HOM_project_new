@@ -1,0 +1,106 @@
+commit bc997e8f676c8fe236340dcb323abcf34a7574dc
+Author:     Yurii Biriukov <biryukovya@my.msu.ru>
+AuthorDate: Tue Oct 20 09:58:12 2026 +0300
+Commit:     Yurii Biriukov <biryukovya@my.msu.ru>
+CommitDate: Tue Oct 20 09:58:12 2026 +0300
+
+    Исходное состояние учебного опыта
+
+ .gitattributes                                   |   10 +
+ .gitignore                                       |   25 +
+ AGENTS.md                                        |   77 ++
+ INDEX.md                                         |   30 +
+ README.md                                        |   76 ++
+ STATUS.md                                        |   21 +
+ cascade.sh                                       |  120 ++
+ checks/check.py                                  |  118 ++
+ checks/check_selftest.py                         |   62 +
+ course/week3/EXPECTED.md                         |   44 +
+ course/week3/agent_loop.ipynb                    |  982 +++++++++++++++
+ course/week5/CONNECT.md                          |  121 ++
+ course/week5/EXPECTED.md                         |  110 ++
+ course/week5/library_demo/corpus.jsonl           |   80 ++
+ course/week5/library_demo/corpus_provenance.json |   31 +
+ course/week5/literature_block.md                 |  134 ++
+ course/week5/research-mcp                        |   20 +
+ course/week5/research-mcp.bat                    |    8 +
+ course/week5/research_mcp.py                     |  300 +++++
+ course/week5/search_lab.ipynb                    | 1232 ++++++++++++++++++
+ data/1711.00080v1.pdf                            |  Bin 0 -> 1743670 bytes
+ data/data.txt                                    |  131 ++
+ diary.md                                         |   70 ++
+ docs/AGENT_original_20261019.md                  |   14 +
+ docs/HOMEWORK_PLAN.md                            |  181 +++
+ docs/LITERATURE_RULES.md                         |   35 +
+ docs/week_1_practice.md                          |  218 ++++
+ docs/week_2_practice.md                          |  330 +++++
+ docs/week_3_practice.md                          |  357 ++++++
+ docs/week_4_practice.md                          |  294 +++++
+ docs/week_5_practice.md                          |  220 ++++
+ memory/L1.md                                     |   47 +
+ memory/L1/part_01_pages_01_02.md                 |    3 +
+ memory/L1/part_02_pages_03_04.md                 |    3 +
+ memory/L1/part_03_pages_05_07.md                 |    3 +
+ memory/L1/part_04_pages_08_09.md                 |    3 +
+ memory/L1/part_05_pages_10_11.md                 |    7 +
+ memory/L2.md                                     |   40 +
+ memory/L3.md                                     |    3 +
+ memory/PROVENANCE.md                             |   25 +
+ memory/READING_EXPERIMENT.md                     |   14 +
+ memory/verification_candidates.md                |   18 +
+ notes/README.md                                  |    6 +
+ ollama-check.md                                  |  195 +++
+ ontology.yaml                                    |  166 +++
+ paper/fancyhdr.sty                               |  864 +++++++++++++
+ paper/hom_dip.bib                                |  113 ++
+ paper/hom_dip.pdf                                |  Bin 0 -> 327176 bytes
+ paper/hom_dip.tex                                |  541 ++++++++
+ paper/icml2026.bst                               | 1443 ++++++++++++++++++++++
+ paper/icml2026.sty                               |  767 ++++++++++++
+ prompts/01_fit.txt                               |    5 +
+ prompts/02_full_paper.txt                        |    6 +
+ prompts/03_context_ab.txt                        |    9 +
+ prompts/04_index.txt                             |    3 +
+ prompts/05_graph_session1.txt                    |   13 +
+ prompts/06_graph_session2.txt                    |    9 +
+ prompts/07_literature.txt                        |   19 +
+ reports/check_selftest.txt                       |    7 +
+ reports/hom-fit-20261020-095009/course_fit.json  |   23 +
+ reports/hom-fit-20261020-095009/session.json     |  167 +++
+ reports/hom-fit-20261020-095009/session.md       |   39 +
+ reports/preparation_audit.md                     |   59 +
+ requirements-course.txt                          |    5 +
+ results/bootstrap_main.npy                       |  Bin 0 -> 120128 bytes
+ results/course_fit.json                          |   23 +
+ results/fig_bootstrap.pdf                        |  Bin 0 -> 13375 bytes
+ results/fig_bootstrap.png                        |  Bin 0 -> 17398 bytes
+ results/fig_fit_main.pdf                         |  Bin 0 -> 23724 bytes
+ results/fig_fit_main.png                         |  Bin 0 -> 59914 bytes
+ results/fig_residuals_models.pdf                 |  Bin 0 -> 28099 bytes
+ results/fig_residuals_models.png                 |  Bin 0 -> 66495 bytes
+ results/fig_zoom.pdf                             |  Bin 0 -> 14419 bytes
+ results/fig_zoom.png                             |  Bin 0 -> 56327 bytes
+ results/fit_results.json                         |  678 ++++++++++
+ results/model_comparison.csv                     |    8 +
+ results/model_systematics.csv                    |    5 +
+ results/physical_parameters.csv                  |   26 +
+ results/verify_fit.txt                           |   45 +
+ results/verify_model_dt0.5.txt                   |   29 +
+ results/verify_model_dt1.txt                     |   29 +
+ src/fit_hom.py                                   |  297 +++++
+ src/hom_models.py                                |  142 +++
+ src/icml2026_template/algorithm.sty              |   79 ++
+ src/icml2026_template/algorithmic.sty            |  201 +++
+ src/icml2026_template/example_paper.bib          |   75 ++
+ src/icml2026_template/example_paper.pdf          |  Bin 0 -> 193509 bytes
+ src/icml2026_template/example_paper.tex          |  662 ++++++++++
+ src/icml2026_template/fancyhdr.sty               |  864 +++++++++++++
+ src/icml2026_template/icml2026.bst               | 1443 ++++++++++++++++++++++
+ src/icml2026_template/icml2026.sty               |  767 ++++++++++++
+ src/icml2026_template/icml_numpapers.pdf         |  Bin 0 -> 2823 bytes
+ src/model_systematics.py                         |   41 +
+ src/quick_fit.py                                 |   65 +
+ src/verify_fit.py                                |  179 +++
+ src/verify_model.py                              |  116 ++
+ tasks/README.md                                  |    6 +
+ 97 files changed, 15856 insertions(+)

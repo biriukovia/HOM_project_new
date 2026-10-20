@@ -1,0 +1,14 @@
+{
+  "w2-without": {
+    "command": "python checks/check_peaks.py",
+    "exit_code": 1,
+    "stdout": "нет файла results/peaks.csv\n",
+    "stderr": ""
+  },
+  "w2-with": {
+    "command": "python checks/check_peaks.py",
+    "exit_code": 0,
+    "stdout": "принято: все пики найдены\n",
+    "stderr": ""
+  }
+}

@@ -18,3 +18,5 @@ paper/parts/
 *.blg
 # Служебный локальный тест не должен добавлять артефакты.
 .course_tmp/
+AR12934_revised_manuscript_R2.pdf
+.obsidian/workspace*.json

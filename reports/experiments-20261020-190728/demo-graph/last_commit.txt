@@ -1,0 +1,12 @@
+commit e70ad111e35a5236555d755b57e3244359b30a3a
+Author:     Yurii Biriukov <biryukovya@my.msu.ru>
+AuthorDate: Tue Oct 20 19:13:23 2026 +0300
+Commit:     Yurii Biriukov <biryukovya@my.msu.ru>
+CommitDate: Tue Oct 20 19:13:23 2026 +0300
+
+    Личная приёмка отчёта Аррениуса
+
+ diary.md                                                             | 3 +++
+ reports/arrhenius_report.md                                          | 2 ++
+ ...1\200\321\200\320\265\320\275\320\270\321\203\321\201\320\260.md" | 5 ++++-
+ 3 files changed, 9 insertions(+), 1 deletion(-)
