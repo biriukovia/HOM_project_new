@@ -26,7 +26,7 @@
 - `course/week5/search_lab.ipynb` — локальное сравнение поиска, тема и запросы подготовлены.
 - `prompts/` — запросы для отдельных сессий.
 - `docs/HOMEWORK_PLAN.md` — план, критерии и недостающие свидетельства по неделям.
-- `reports/preparation_audit.md` — результаты проверки архива ассистентом.
+- `reports/preparation_audit.md` — результаты подготовки и проверки архива.
 - `docs/LITERATURE_RULES.md` — адаптированные правила источников и запросов; схема уже включена.
 
 - `ollama_kit/week3/agent_loop_ollama.ipynb` — выполненный ноутбук недели 3.
@@ -36,4 +36,4 @@
 - `reports/literature_collection.md` — принятый литературный сбор.
 - `reports/experiments-20261020-190728/` — итоговые отдельные опыты.
 - `reports/final_checks.json` — фактические коды проверок.
-- `reports/remaining_user_actions.md` — оставшееся участие владельца.
+- `reports/remaining_user_actions.md` — мои оставшиеся действия.
