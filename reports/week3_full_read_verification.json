@@ -1,0 +1,52 @@
+{
+  "session": "logs/paper-20261020-185355-e18ae",
+  "source_characters": 48672,
+  "fragments": [
+    {
+      "range": [
+        0,
+        10000
+      ],
+      "exact": true,
+      "chars": 10000
+    },
+    {
+      "range": [
+        10000,
+        20000
+      ],
+      "exact": true,
+      "chars": 10000
+    },
+    {
+      "range": [
+        20000,
+        30000
+      ],
+      "exact": true,
+      "chars": 10000
+    },
+    {
+      "range": [
+        30000,
+        40000
+      ],
+      "exact": true,
+      "chars": 10000
+    },
+    {
+      "range": [
+        40000,
+        48672
+      ],
+      "exact": true,
+      "chars": 8672
+    }
+  ],
+  "observed_status_after_read": {
+    "context_tokens": 25197,
+    "context_limit": 32768,
+    "lifetime_tokens": 28552
+  },
+  "status_provenance": "Actual /status output captured by Codex PTY on 20.10.2026; not inferred from configured limits."
+}

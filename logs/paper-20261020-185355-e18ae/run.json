@@ -1,0 +1,29 @@
+{
+  "session_name": "paper-20261020-185355-e18ae",
+  "task": "paper",
+  "model": "gemma4:31b-cloud",
+  "provider": "ollama",
+  "endpoint": "http://localhost:11434",
+  "remote_inference": true,
+  "mode": "approve",
+  "context_requested": 32768,
+  "started": "2026-10-20T18:53:57.521146+03:00",
+  "cwd": "C:\\Users\\yury_\\Shad_projects\\HOM_project_new",
+  "ollama_version": {
+    "version": "0.40.6"
+  },
+  "protected_before": {
+    "data/1711.00080v1.pdf": "76bf695b5c101d8359104a7b3537a4e06dd16c9e09d68297f2265d68a3c8d90b",
+    "data/data.txt": "77870cb941669b0e442766fc57f634bb35bd0a266e931fb28f87710e16c7184d",
+    "checks/check.py": "93a3ed94104af424686cb40ebc56d974507fb03b51fae2784ec937c45d68bf03",
+    "checks/check_selftest.py": "62f72beb88ce0464ae938939a58fe3c411d57c1c6af66566ce0a586462992cb1",
+    "ontology.yaml": "0ebb7c814f53138ff1b449e86fd200a70f76ee97ffb316db03d66fc259f8c907"
+  },
+  "task_result": "NOT_ASSESSED",
+  "human_review": "PENDING",
+  "goose_process_exit_code": 0,
+  "protected_changed": [],
+  "ended": "2026-10-20T18:57:18.987278+03:00",
+  "export_markdown_exit_code": 0,
+  "export_json_exit_code": 0
+}
