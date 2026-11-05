@@ -50,7 +50,7 @@ def finite(value):
 
 def record(metric, tolerance, **details):
     metric = float(finite(metric))
-    return {'pass': metric <= tolerance, 'metric': metric, 'tolerance': float(tolerance), **details}
+    return {'pass': bool(metric <= float(tolerance)), 'metric': metric, 'tolerance': float(tolerance), **details}
 
 
 def reference(u, length, width):

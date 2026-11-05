@@ -1,0 +1,1 @@
+PASS stage=dry output=C:\Users\yury_\Shad_projects\HOM_project_new\results\hw2\dry.json elapsed=0.354s

@@ -1,0 +1,29 @@
+{
+  "schema_version": 2,
+  "started": "2026-11-05T16:38:23.967877+03:00",
+  "stage": "dry",
+  "environment": {
+    "python": "3.12.10",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1"
+  },
+  "seeds": [],
+  "cases_per_seed": 0,
+  "properties": {},
+  "comparison": null,
+  "verdict": "PASS",
+  "inputs": {
+    "rows": 130,
+    "numeric_sha256": "d9b904bae0f78959c6cc9653f7e2a73174044c9bf6ea0c9468d442af7f3bc8e1",
+    "sha256": {
+      "data/data.txt": "77870cb941669b0e442766fc57f634bb35bd0a266e931fb28f87710e16c7184d",
+      "src/hom_models.py": "93e956024af083e431d8a1daeade3b7a18354abfcf951d942570c620ddba754d",
+      "METHOD.md": "c797daa2599977653caf457b78c3f207df611ab41d7539083d6aebc9be664970",
+      "checks/hw2/verify.py": "a143d4425dfcf4405ae3d33cab8e71ec923f5ad7c21f11cb85b0126ca03861a2",
+      "checks/hw2/engine.py": "2b48bb1cb4bf08ca63008d506ae02bc09c11c01768d9c58f92babbf1de539288"
+    }
+  },
+  "ended": "2026-11-05T16:38:24.322121+03:00",
+  "elapsed_seconds": 0.3543372000021918
+}
