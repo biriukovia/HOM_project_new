@@ -1,0 +1,29 @@
+{
+  "tag": "hw2",
+  "tag_commit": "d193aa971ffa25ad0adaa67818fb6b2f212e8d89",
+  "source_clone": "local git clone --no-hardlinks --branch hw2",
+  "clean_before_run": true,
+  "started": "2026-11-05T16:45:08.145690+03:00",
+  "command": [
+    "C:\\Users\\yury_\\Shad_projects\\HOM_project_new\\.venv-course\\Scripts\\python.exe",
+    "-X",
+    "utf8",
+    "checks/hw2/verify.py",
+    "--stage",
+    "full"
+  ],
+  "cwd": "C:\\Users\\yury_\\Shad_projects\\HOM_project_new\\.course_tmp\\hw2-clean",
+  "exit_code": 0,
+  "elapsed_seconds": 3.9935134000006656,
+  "properties_identical": true,
+  "comparison_identical": true,
+  "environment": {
+    "python": "3.12.10",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1"
+  },
+  "environment_note": "Reused installed Python environment with pinned NumPy/SciPy; not a new pip installation. Source checkout is clean.",
+  "output_hash": "43bc4dc6e05d45691cf94550935bb7cc7227267a9420c41428a40941c94f8c6d",
+  "author": "Codex"
+}
