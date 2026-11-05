@@ -37,3 +37,8 @@
 - `reports/experiments-20261020-190728/` — итоговые отдельные опыты.
 - `reports/final_checks.json` — фактические коды проверок.
 - `reports/remaining_user_actions.md` — мои оставшиеся действия.
+
+- `METHOD.md` — методика HW2, зафиксированная до новых прогонов.
+- `checks/hw2/verify.py` — одна команда проверки восьми свойств HOM.
+- `reports/hw2/report.md` — принятый отчёт HW2, недели 6–7, метка hw2.
+- `results/hw2/` — реальные прогоны, десять seed, ошибка до/после.

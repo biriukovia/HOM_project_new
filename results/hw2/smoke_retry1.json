@@ -1,0 +1,149 @@
+{
+  "schema_version": 2,
+  "started": "2026-11-05T16:39:03.011241+03:00",
+  "stage": "smoke",
+  "environment": {
+    "python": "3.12.10",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1"
+  },
+  "seeds": [
+    0
+  ],
+  "cases_per_seed": 8,
+  "properties": {
+    "P1": {
+      "pass": true,
+      "cases": 8,
+      "failures": 0,
+      "max_metric": 0.0,
+      "tolerance": 1e-12,
+      "first_failure": null
+    },
+    "P2": {
+      "pass": true,
+      "cases": 8,
+      "failures": 0,
+      "max_metric": 0.0,
+      "tolerance": 1e-12,
+      "first_failure": null
+    },
+    "P3": {
+      "pass": true,
+      "cases": 8,
+      "failures": 0,
+      "max_metric": 1.1102230246251565e-16,
+      "tolerance": 1e-10,
+      "first_failure": null
+    },
+    "P4": {
+      "pass": true,
+      "cases": 8,
+      "failures": 0,
+      "max_metric": 0.0,
+      "tolerance": 1e-12,
+      "first_failure": null
+    },
+    "P5": {
+      "pass": true,
+      "cases": 8,
+      "failures": 0,
+      "max_metric": 5.424609231822353e-17,
+      "tolerance": 1e-09,
+      "first_failure": null
+    },
+    "P6": {
+      "pass": true,
+      "cases": 8,
+      "failures": 0,
+      "max_metric": 7.978840608213744e-07,
+      "tolerance": 7.979845608028654e-07,
+      "first_failure": null
+    },
+    "P7": {
+      "pass": true,
+      "cases": 8,
+      "failures": 0,
+      "max_metric": 0.0,
+      "tolerance": 1e-10,
+      "first_failure": null
+    },
+    "P8": {
+      "pass": true,
+      "cases": 8,
+      "failures": 0,
+      "max_metric": 1.3860739098723027e-07,
+      "tolerance": 1.0,
+      "first_failure": null
+    }
+  },
+  "comparison": {
+    "candidate": {
+      "mean": 1.1449174941446927e-16,
+      "std": null,
+      "ci95": null
+    },
+    "baseline": {
+      "mean": 0.002523570716103674,
+      "std": null,
+      "ci95": null
+    },
+    "paired_difference": {
+      "mean": 0.0025235707161035594,
+      "std": null,
+      "ci95": null
+    },
+    "raw_per_seed": [
+      {
+        "seed": 0,
+        "rng_seed": 10000,
+        "count": 8,
+        "candidate_mae": 1.1449174941446927e-16,
+        "baseline_mae": 0.002523570716103674,
+        "candidate_errors": [
+          2.7755575615628914e-17,
+          2.7755575615628914e-17,
+          2.7755575615628914e-17,
+          0.0,
+          1.6653345369377348e-16,
+          1.1102230246251565e-16,
+          4.440892098500626e-16,
+          1.1102230246251565e-16
+        ],
+        "baseline_errors": [
+          0.002848575215129573,
+          0.0003275577195703955,
+          0.001710446916416128,
+          0.0005553109134538298,
+          0.0016699543405117034,
+          0.005071606269032247,
+          0.001869205050009537,
+          0.006135909304705978
+        ]
+      }
+    ],
+    "alpha": 0.05,
+    "practical_threshold": 0.001,
+    "p_value": null,
+    "sign_patterns": null,
+    "verdict": "DESCRIPTIVE_ONLY",
+    "max_quadrature_error": 3.888703499593108e-12,
+    "max_candidate_error": 4.440892098500626e-16
+  },
+  "verdict": "PASS",
+  "inputs": {
+    "rows": 130,
+    "numeric_sha256": "d9b904bae0f78959c6cc9653f7e2a73174044c9bf6ea0c9468d442af7f3bc8e1",
+    "sha256": {
+      "data/data.txt": "77870cb941669b0e442766fc57f634bb35bd0a266e931fb28f87710e16c7184d",
+      "src/hom_models.py": "93e956024af083e431d8a1daeade3b7a18354abfcf951d942570c620ddba754d",
+      "METHOD.md": "c797daa2599977653caf457b78c3f207df611ab41d7539083d6aebc9be664970",
+      "checks/hw2/verify.py": "a143d4425dfcf4405ae3d33cab8e71ec923f5ad7c21f11cb85b0126ca03861a2",
+      "checks/hw2/engine.py": "3daf3822deaea8d839abd57420cf5ddaa93959c7b02845e52e1611454e9e1dfd"
+    }
+  },
+  "max_property_quadrature_error": 2.6536205906704146e-12,
+  "ended": "2026-11-05T16:39:03.375462+03:00",
+  "elapsed_seconds": 0.36358710000058636
+}

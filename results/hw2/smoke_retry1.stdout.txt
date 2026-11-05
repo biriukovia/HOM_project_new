@@ -1,0 +1,10 @@
+P1: PASS cases=8 failures=0 max_metric=0
+P2: PASS cases=8 failures=0 max_metric=0
+P3: PASS cases=8 failures=0 max_metric=1.11022302463e-16
+P4: PASS cases=8 failures=0 max_metric=0
+P5: PASS cases=8 failures=0 max_metric=5.42460923182e-17
+P6: PASS cases=8 failures=0 max_metric=7.97884060821e-07
+P7: PASS cases=8 failures=0 max_metric=0
+P8: PASS cases=8 failures=0 max_metric=1.38607390987e-07
+Comparison: DESCRIPTIVE_ONLY; baseline=0.0025235707161; candidate=1.14491749414e-16; p=None
+PASS stage=smoke output=C:\Users\yury_\Shad_projects\HOM_project_new\results\hw2\smoke_retry1.json elapsed=0.364s

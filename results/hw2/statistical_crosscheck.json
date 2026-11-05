@@ -1,0 +1,14 @@
+{
+  "author": "Codex",
+  "source": "caught_error_after.json",
+  "method": "statistics.mean/stdev and t interval; all paired deltas positive -> two extreme sign patterns out of 1024",
+  "paired_mean": 0.02004823919366805,
+  "paired_std": 0.005327286480404914,
+  "paired_ci95": [
+    0.016237328019826237,
+    0.023859150367509862
+  ],
+  "p": 0.001953125,
+  "verdict": "PASS",
+  "same_as_first_full": true
+}

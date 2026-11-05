@@ -1,0 +1,18 @@
+{
+  "initial_head": "e489934f4282265111938843b961edfe2b7a4234",
+  "unchanged_preexisting_files": 779,
+  "unexpected_changes": [],
+  "allowed_existing_edits": [
+    "AGENTS.md",
+    "INDEX.md",
+    "README.md",
+    "STATUS.md",
+    "diary.md",
+    "ollama_kit/run_goose.py"
+  ],
+  "preexisting_user_status": " M .obsidian/graph.json\n M memory/L2.md\n D paper/hom_dip.aux\n D paper/hom_dip.log\n D paper/hom_dip.out\n?? Permanent_Quantum_Research.pdf\n",
+  "method_unchanged_since_commit": "b434d0c",
+  "known_secret_pattern_matches": [],
+  "scan_files": 48,
+  "author": "Codex"
+}
