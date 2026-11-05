@@ -1,0 +1,21 @@
+{
+  "kind": "preparation_record",
+  "author": "Codex",
+  "date": "2026-11-05",
+  "method_not_run": true,
+  "official_check_week6": "waived by user 2026-11-05",
+  "launch_failure": {
+    "command": "python -X utf8 ollama_kit/run_goose.py hw2-method --model gemma4:31b-cloud",
+    "exit_code": 1,
+    "output": "ERROR: Ollama is not responding on localhost:11434. Open the Ollama app first.",
+    "session_created": false
+  },
+  "resolution": "Started installed ollama.exe serve in background; then started named Goose session hw2-method-20261105-162859-a500a",
+  "sources": {
+    "docs/hw2/ASSIGNMENT.md": "a3efbd13202cc552e061842813090cb7e42afce7e350ae04d9ae16aa59ef202c",
+    "docs/hw2/EXPECTED.md": "497ed077fca905fd80a79600f0eb23239349b0c5ee5577d71268cb3b3e342dab",
+    "docs/hw2/METHOD_EXAMPLE.md": "dc2de81a3db2a68bcc6e64172230aeb2e4bc054d677a549c99880dae63fcc625",
+    "docs/hw2/REPORT_TEMPLATE.md": "5de56aa780fc87389ce21e45853e6d8adc2e61e7b95dd825d35cc5a3186dd68f",
+    "docs/hw2/RUBRIC.md": "4b44f881719a8990acdf5a852ef71b278bcea5fb7c3f94c4ecf930ba6a5baacb"
+  }
+}

@@ -6,6 +6,8 @@ import argparse, datetime as dt, hashlib, json, os, pathlib, shutil, subprocess,
 
 KIT = pathlib.Path(__file__).resolve().parent
 TASKS = {
+    'hw2-method': ('16_hw2_method.txt', 10, False),
+    'hw2-build': ('17_hw2_build.txt', 15, False),
     'smoke': ('00_smoke.txt', 5, False),
     'fit': ('01_fit.txt', 8, False),
     'w2-without': ('02_spectra_without.txt', 15, False),
