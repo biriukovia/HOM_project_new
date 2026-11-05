@@ -139,4 +139,4 @@ def cm_to_ps(dx_cm):
     Проверка: checks/check.py::check — отдельный пересчёт T1 без импорта функции.
     Используется в: src/quick_fit.py::main; src/fit_hom.py::derived.
     """
-    return N_GROUP_AIR * np.asarray(dx_cm) / C_LIGHT_CM_PER_PS
+    return 2.0 * N_GROUP_AIR * np.asarray(dx_cm) / C_LIGHT_CM_PER_PS  # intentional HW2 negative control
